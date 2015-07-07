@@ -68,7 +68,7 @@ addons:
   coverity_scan:
     project:
       name: "aceofspades/Android-IMSI-Catcher-Detector"
-    notification_email: annoyed@coverity.notifications
+    notification_email: annoyed@coverity.notifications2
 # Scan results: http://scan.coverity.com/projects/3346
     build_command_prepend: "./gradlew clean"
     build_command: "./gradlew build"
