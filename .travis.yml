@@ -27,7 +27,7 @@ env:
 #-----------------
 
 # Encrypted Coverity Scan Token
-    - secure: "jRKgZfeAxDhqDIrySBESiij3Ot9cmVQ4CMB+IVpmf7Xjfek6By1ba7Y1lgMdLRPgvLkj3k5mMx1BMx2yeSCBp/+TZJ6Ezj3EVJ6HS2ctkAH4KzsiqlSCKiRgfOqKgzfnftCkNzXCEE3XLVLcv4iT5Ru/EBG85kEDViGrDBP+PxA="
+    - secure: "IEvX3vMPadrVPF3nlPDrscqNr+VLRaGDFakxwgSFMIznNXJYMsKvc0Prt1WmFjleZzK+5thNJxIG1mDaVxDxRG5vRieoth2UFYC9DZf8b+r38TAKWAqnEV8OZsgjVJzAdezzrw976XrN1h219LmeftFjnBh/HIkCoZqfzybPSBjRDECIFwMffoWm60NrirMwYvNzWY0xi7GbRMJnzUumOT7kUBjjBp4ScHBbCKDBMsYwrnu/N6o7LuSkXNjK99HqUadixzBjqNudHQh9cFeKd/onbZmXakPLIJjfucg6wzRfRxTbHwsacIwJFVK+Naid0xHZHI+LvZxMkCCvgvTt1VGEmf6oyNlea1Z2bibVDcWHzUpvTYzAwLZZV9w2jhOKvNKbymAN2NnEdHIdgi3dizcUTUG0XLNEn8laLWnHlwAbmPG+BkgrErDQzodlrpYDr0sNU4NpKdZUpAE27gMN9M0JnhevaPk6/axc14Nr+ruTf9P66T+6Xlomag4Em+ptTJ7dEbQBvlX2ybu2hxU4XM9F+xYOBFoyFPiAISH/YTJVoseys1YuhB1o4Yywvz2vCiguTN66tOgZmioUsSCjRc19Kh6EOrUQlcpbxvyW64YK0w6vzGHTbSSV1J5DOsei4smKFfcAxFclVaNO7brym4jJI5wGXycxVvgz+nNsAag="
 
 before_install:
 # Making sure gradlew has executable permissions
@@ -67,7 +67,7 @@ script:
 addons:
   coverity_scan:
     project:
-      name: "SecUpwN/Android-IMSI-Catcher-Detector"
+      name: "aceofspades/Android-IMSI-Catcher-Detector"
     notification_email: annoyed@coverity.notifications
 # Scan results: http://scan.coverity.com/projects/3346
     build_command_prepend: "./gradlew clean"
