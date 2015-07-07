@@ -28,10 +28,6 @@ env:
 
 # Encrypted Coverity Scan Token
     - secure: "jRKgZfeAxDhqDIrySBESiij3Ot9cmVQ4CMB+IVpmf7Xjfek6By1ba7Y1lgMdLRPgvLkj3k5mMx1BMx2yeSCBp/+TZJ6Ezj3EVJ6HS2ctkAH4KzsiqlSCKiRgfOqKgzfnftCkNzXCEE3XLVLcv4iT5Ru/EBG85kEDViGrDBP+PxA="
-# Encrypted internal chat Token
-notifications:
-  hipchat:
-    - secure: "I2XmQkFCyKZHW2NeClYyl3FND80YkqLtYo+Rn3ftS4xjEg6VfGgDv6AlvQ+b+oZg7RZI6nKia9OLZxAxVBOHw6UcJJnurJx4hfAIBZAihIiNpZPj1c9wGgv4D+M6zi3rgbJRZ2Tz6IKJvHC+CD3LApeJR9kH15lDWbD7YZ0UI7E="
 
 before_install:
 # Making sure gradlew has executable permissions
